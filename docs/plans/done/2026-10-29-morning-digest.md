@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-29
 ---
 
 # Morning digest
@@ -77,3 +78,16 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|-----------|--------|--------|
+| 1 | Digest contract: define row and reader types | — | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 2 | Digest reader: aggregate night run logs | #1 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 3 | Digest page: GET /digest/:night | #1 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 4 | Digest API: GET /api/digest/:night | #1 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 5 | Status board: link nights to digests | #1 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 6 | Digest page and API route tests | #1 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 7 | Publish the digest HTML preview | #2, #3, #4, #5, #6 | Codex harness · GPT-6 · inherited | 2026-10-29 |
+| 8 | Remove the lane marker and finish the plan | #7 | Codex harness · GPT-6 · inherited | 2026-10-29 |
